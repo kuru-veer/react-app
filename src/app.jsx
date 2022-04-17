@@ -4,7 +4,7 @@ const App = () => {
   return (
     <>
       <center>
-        <h1>
+        <h1 className="text-6xl">
           React App!!!
         </h1>
       </center>
