@@ -1,13 +1,13 @@
 import React from "react";
+import { BrowserRouter } from "react-router-dom";
+import PageRoute from "./pages/PageRoute";
 
 const App = () => {
   return (
     <>
-      <center>
-        <h1 className="text-6xl">
-          React App!!!
-        </h1>
-      </center>
+      <BrowserRouter>
+        <PageRoute />
+      </BrowserRouter>
     </>
   );
 };
